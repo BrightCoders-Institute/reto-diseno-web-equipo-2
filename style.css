@@ -16,17 +16,20 @@ header{
 header img{
     width: 30%;
     height: auto;
+    margin-top: 1.5rem;
 }
 
 header a {
+    padding: 0.3rem 2rem;
+    background: white;
+    color: hsl(192, 100%, 9%);
+    font-family: "Poppins", sans-serif;
     border-radius: 25px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    font-size: 18px;
-    box-shadow: 2px 5px 15px -5px rgba(0,0,0,0.71);
-    background-color: white;
-    padding: 2px 20px 2px 20px;
-    border: none;
+    border: transparent;
+    cursor: pointer;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.3);
+    margin-top: 1.5rem;
+    font-size: small;
 }
 
 #build-commun {
@@ -40,13 +43,17 @@ header a {
     width: 70vw;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
+    margin-top: 5rem;
+    line-height: 2.3rem;
 }
 
 #build-commun p{
     display: inline;
-    width: 70vw;text-align: center;
+    width: 80vw;text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 #build-commun img{
@@ -55,7 +62,9 @@ header a {
 }
 
 #build-commun .button {
-    
+
     background-color:
     hsl(322, 100%, 66%);
+
 }
+
