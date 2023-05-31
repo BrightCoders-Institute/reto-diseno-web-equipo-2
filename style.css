@@ -11,16 +11,19 @@ main{
 header{
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    padding: 0.5rem 0.5rem;
 }
 
 header img{
-    width: 30%;
+    width: 100px;   
     height: auto;
-    margin-top: 1.5rem;
+    margin-top: 1.2rem;
 }
 
 header a {
-    padding: 0.3rem 2rem;
+    padding: 0.3rem 1rem;
     background: white;
     color: hsl(192, 100%, 9%);
     font-family: "Poppins", sans-serif;
@@ -29,7 +32,19 @@ header a {
     cursor: pointer;
     box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.3);
     margin-top: 1.5rem;
-    font-size: small;
+    font-size: 10px;
+    width: 20vw;
+    text-align: center;
+}
+
+header a:hover {
+    opacity: 0.7;
+}
+
+.mockups {
+    margin: 4rem 0;
+    width: 80vw;
+    height: 30%;
 }
 
 #build-commun {
@@ -56,15 +71,19 @@ header a {
     margin-bottom: 2rem;
 }
 
-#build-commun img{
-    width: 80vw;
-    height: 30%;
+.button {
+    border-radius: 25px;
+    border: transparent;
+    color:white;
+    font-family: "Poppins", sans-serif;
+    background-color: hsl(322, 100%, 66%);
+    padding: 0.7rem 2rem;
+    cursor: pointer;
+    width: 50vw;
+    text-align: center;
+    font-size: small;
 }
 
-#build-commun .button {
-
-    background-color:
-    hsl(322, 100%, 66%);
-
+.button:hover {
+    opacity: 0.7;
 }
-
