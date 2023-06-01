@@ -104,8 +104,12 @@ header a:hover {
 #cards p {
     color: var(--GrayishBlue);
 }
+
 #cards div {
-    display: flex;
+    
+}
+.cards-container__card {
+	display: flex;
     flex-direction: column;
     align-items: center;
     margin: 2rem 1rem;
@@ -183,15 +187,15 @@ header a:hover {
 }
 
 footer{
-    margin-top: 40%;
-    z-index: -1;
+	margin-top: 40%;
+	z-index: -1;
 }
 
 .social {
-    display: flex;
-    justify-content: center;
-    width: 70%;
-    margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	width: 70%;
 }
 
 .social i {
@@ -204,11 +208,21 @@ footer{
 }
 
 .social i:nth-child(2n) {
-    margin: 0 25px;
+	margin: 0 25px;
 }
 
 .social i:hover {
-    color: var(--pink);
-    border: 2px solid var(--pink);
-    border-radius: 50%;
+	color: var(--pink);
+	border: 2px solid var(--pink);
+	border-radius: 50%;
+}
+
+@media (min-width: 1000px) {
+	.cards-container__card {
+		flex-direction: row;
+	}
+
+	.cards-container__card:nth-child(odd) {
+		flex-direction: row-reverse;
+	}
 }
