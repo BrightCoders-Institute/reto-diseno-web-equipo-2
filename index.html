@@ -6,21 +6,20 @@
     <!-- displays site properly based on user's device -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-FJjbD1RRq0+PBbhz2n3Z2eMvqib4wYHlFjz20d8puuB0vBYYvF+gvWmAM6fjodl+" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
     <link rel="stylesheet" href="style.css">
-
     <title>
       Frontend Mentor | Huddle landing page with alternating feature blocks
     </title>
-
   </head>
   <body>
     <main>
@@ -28,9 +27,9 @@
         <img src="img/logo.svg"></img>
         <a>Try It Free</a>
       </header>
+
       <section id="build-commun">
         <h2>Build The Community Your Fans Will Love</h2>
-
         <p>
           Huddle re-imagines the way we build communities. You have a voice, but
           so does your audience. Create connections with your users as you engage
@@ -39,75 +38,84 @@
         <div class="button">
           <a class="get-started">Get Started For Free</a>
         </div>
-        
         <img class="mockups" src="img/illustration-mockups.svg" alt="mockups">
-  
       </section>
     </main>
-    
-      <section id="grow-together">
+
+    <section class="cards-container" >
+      <div class="cards-container__card">
         <img src="img/illustration-grow-together.svg" alt="grow-together">
-        <h4>Grow Together</h4>
+        <div class="cards-container__information">
+          <h2  class="cards-container__information__title">Grow Together</h2>
+          <p>
+            Generate meaningful discussions with your audience and build a strong,
+            loyal community. Think of the insightful conversations you miss out on
+            with a feedback form.
+          </p>
+        </div>
+      </div>
+
+      <div class="cards-container__card">
+        <img src="img/illustration-flowing-conversation.svg" alt="flowing-conv">
+        <h2>Flowing Conversations</h2>
         <p>
-          Generate meaningful discussions with your audience and build a strong,
-          loyal community. Think of the insightful conversations you miss out on
-          with a feedback form.
+          You wouldn't paginate a conversation in real life, so why do it online?
+          Our threads have just-in-time loading for a more natural flow.
         </p>
-      </section>
-   
-    
+      </div>
 
-    <section id="flowing-conv">
-      <img src="img/illustration-flowing-conversation.svg" alt="flowing-conv">
-      <h4>Flowing Conversations</h4>
-      <p>
-        You wouldn't paginate a conversation in real life, so why do it online?
-        Our threads have just-in-time loading for a more natural flow.
-      </p>
+      <div class="cards-container__card">
+        <img src="img/illustration-your-users.svg" alt="your-users">
+        <h2>Your Users</h2>
+        <p>
+          It takes no time at all to integrate Huddle with your app's
+          authentication solution. This means, once signed in to your app, your
+          users can start chatting immediately.
+        </p>
+      </div>
     </section>
-
-    <section id="your-users">
-      <img src="img/illustration-your-users.svg" alt="your-users">
-      <h4>Your Users</h4>
-      <p>
-        It takes no time at all to integrate Huddle with your app's
-        authentication solution. This means, once signed in to your app, your
-        users can start chatting immediately.
-      </p>
-    </section>
-    <section>
+    <section class="lower-card">
       <h4>Ready To Build Your Community?</h4>
       <div class="button">
         <a>Get Started For Free</a>
       </div>
     </section>
-    Ready To Build Your Community? Get Started For Free
 
-    <footer>
-      <h2>Huddle</h2>
+    <footer class="contact">
+      <img src="img/logofooter.svg" id="logofooter">
       <div class="flexbox-colum">
         <div class="column">
-          <div class="row">
+          <div class="row-footer-info row">
             <img src="img/icon-location.svg" alt="">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua
+              <p class="footer-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
           </div>
-          <div class="row"><img src="img/icon-phone.svg" alt="">+1-543-123-4567</div>
-          <div class="row"><img src="img/icon-email.svg" alt="">example@huddle.com</div>
+          <div class="row">
+            <img src="img/icon-phone.svg" alt="">
+            <a>+1-543-123-4567</a>
+            </div>
+          <div class="row">
+            <img src="img/icon-email.svg" alt="">
+            <a>example@huddle.com</a>
+          </div>
         </div>
         <div class="column">
-          <p class="row">About Us</p>
-          <p class="row">What We Do</p>
-          <p class="row">FAQ</p>
+          <a class="row">About Us</a>
+          <a class="row">What We Do</a>
+          <a class="row">FAQ</a>
         </div>
         <div class="column">
-          <p class="row">Career</p>
-          <p class="row">Blog</p>
-          <p class="row">Contact Us</p>
+          <a class="row">Career</a>
+          <a class="row">Blog</a>
+          <a class="row">Contact Us</a>
         </div>
-        <div class="column rows"></div>
       </div>
-      <p>Copyright 2018 Huddle. All rights reserved.</p>
+      <div class="social">
+        <i class="fa-brands  test fa-facebook-f"></i>
+        <i class="fa-brands test fa-twitter"></i>
+        <i class="fa-brands test fa-instagram"></i>
+      </div>
+      <p id="copyright">Copyright 2018 Huddle. All rights reserved.</p>
     </footer>
   </body>
 </html>
