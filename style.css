@@ -141,9 +141,16 @@ header a:hover {
     padding-left: 1rem;
 }
 
+.row-footer-info {
+    display: flex;
+    align-items: start;
+}
+
 .row .footer-info {
-    display: inline;
+    display: inline-block;
     padding-left: 1rem;
+    margin-top: 0;
+    width: 270px;
 }
 
 .contact #logofooter {
