@@ -26,3 +26,8 @@ Third day Start desinging section three with css, adding some icons from the web
 Fourth day, desktop styling start. Style for header, first section and card section.
 
 Fith day, adjust first section for desktop and finished third section to apply layout, finishing css tyle sheet and clean code. 
+
+
+# Deployed web page:
+
+# https://reto-diseno-web-equipo-2.netlify.app/
