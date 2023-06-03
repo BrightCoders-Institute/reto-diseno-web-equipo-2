@@ -23,4 +23,6 @@ Second day starts desing of the seciont two (cards, borders, shadows etc.)
 
 Third day Start desinging section three with css, adding some icons from the web due to not have it in original repo.
 
-Fourth day, desktop styling start. Style for header, first sectino and card section.
+Fourth day, desktop styling start. Style for header, first section and card section.
+
+Fith day, adjust first section for desktop and finished third section to apply layout, finishing css tyle sheet and clean code. 
