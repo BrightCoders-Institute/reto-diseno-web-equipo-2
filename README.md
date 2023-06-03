@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/DAmXqQbf)
 ![BrightCoders Logo](img/logo.png)
 
 # Reto: Diseño web
@@ -15,4 +16,18 @@ Things you may want to cover:
 - How to Use the Project.
 - Credits
 - Badges
-  
+
+Fisrt day starst desing of html code, separates all items and adding images to the web page.
+
+Second day starts desing of the seciont two (cards, borders, shadows etc.) 
+
+Third day Start desinging section three with css, adding some icons from the web due to not have it in original repo.
+
+Fourth day, desktop styling start. Style for header, first section and card section.
+
+Fith day, adjust first section for desktop and finished third section to apply layout, finishing css tyle sheet and clean code. 
+
+
+# Deployed web page:
+
+# https://reto-diseno-web-equipo-2.netlify.app/
